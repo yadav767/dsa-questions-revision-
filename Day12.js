@@ -1,5 +1,6 @@
 //->Two string can be anagram if the both the string have tha same number character ,order does not matter.
 let str1 = "listen";
+
 let str2 = "silent";
 
 function areAnagram(s1,s2){
