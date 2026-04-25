@@ -5,4 +5,4 @@ function checkPalindrome(str, s, e) {
     return checkPalindrome(str, s + 1, e - 1)
 }
 
-console.log(checkPalindrome(str,0,str.length-1));
+console.log(checkPalindrome(str,0,str.length-1));               
