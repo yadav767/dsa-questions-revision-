@@ -1,14 +1,14 @@
-let arr = [4, 5, 6, 7, 1, 2, 3]
+let arr = [1, 2, 5, 7, 5, 3, 1]     
 function peakIndex(arr) {
     let start = 0;
     let end = arr.length - 1;
     let ans = -1;
-    while (start <= end) {
+    while (start < end) {
         let mid = Math.floor((start + end) / 2)
-        if (arr[mid] < arr[mid + 1]) {
+        if (arr[mid] <= arr[mid + 1]) {
             start = mid + 1
         } else {
-            and = mid
+            ans = mid
             end = mid
         }
     }
